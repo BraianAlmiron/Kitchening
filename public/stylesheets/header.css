@@ -48,3 +48,11 @@ display: block;
     }
 }
 
+/* Desktop */
+@media (min-width:1180px) {
+    .header__nav--menu li{
+        width: 180px;       
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+}
