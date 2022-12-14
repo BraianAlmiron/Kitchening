@@ -29,3 +29,22 @@ display: block;
     text-align: center;
     padding: 10px 0;
 }
+
+/* Tablet (768px) */
+@media (min-width: 426px) {
+    .header__hamburger{
+        display: none;
+    }
+    .header__nav--menu li{
+        width: 15%;
+        display: inline-block;       
+        margin-bottom: 0px;
+        margin-right: 1.2%;        
+                    
+    }
+
+    .header__nav--menu li:last-child{
+        margin-right: 0;
+    }
+}
+
